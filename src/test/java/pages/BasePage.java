@@ -2,7 +2,11 @@ package pages;
 
 
 
+
+import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -89,6 +93,25 @@ public class BasePage {
 
     //traer vaores de tablas:
 
+    
+    public void dismissAlert(){
+        //para entender mejro lo que está pasando en el error:
+        try{
+            driver.switchTo().alert().dismiss();
+        }catch(NoAlertPresentException e){
+            e.printStackTrace();
+        }
+
+    }
 
 
+    public String textFromElement(String locator){
+        return Find(locator).getText();
+    }
+
+    //-------------------------------------------------- sandbox --------------------------------------------------
+
+    public List<WebElement> bringMeAllElements(String locator){
+        return driver.findElements(By.className(locator));
+    }
 }
