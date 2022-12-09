@@ -93,6 +93,10 @@ public class BasePage {
 
     //traer vaores de tablas:
 
+        public static void closeBrowser(String url){
+            driver.quit();
+            
+        }
     
     public void dismissAlert(){
         //para entender mejro lo que está pasando en el error:

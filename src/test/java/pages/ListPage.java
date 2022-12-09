@@ -17,11 +17,11 @@ public class ListPage extends BasePage{
     public void navigateToListPage(){
         navigateTo("https://andreidbr.github.io/JS30/06AjaxTypeAhead/index.html");
     }
-    public void enterSearchCriteria() throws InterruptedException{
+    public void enterSearchCriteria(String state) throws InterruptedException{
         //puede que no se presente el webelement, y nos va a apuntar el elemento que no se encontró, pero para que sea mas informativo hacemos:
         try{
             Thread.sleep(600); //decirle al sistema que se frene por 600 milisegundos o si no, no me trae todas las opciones
-            write(searchField, "Washington");
+            write(searchField, state);
         }catch(NoSuchElementException e){
             System.out.println("The WebElement Search Field couldn't be found.");
             e.printStackTrace();

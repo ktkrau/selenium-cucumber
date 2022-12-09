@@ -1,0 +1,161 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "As a Test Engineer, I want to validate that a text is present inside the list.",
+        "description": "",
+        "id": "list-page-functionality;as-a-test-engineer--i-want-to-validate-that-a-text-is-present-inside-the-list.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 781900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2223638800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the list page",
+            "match": {
+              "location": "ListSteps.navigateToListPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 810479500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Washington",
+                  "offset": 9
+                }
+              ],
+              "location": "ListSteps.searchTheList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 324615600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can find Seattle, Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seattle, Washington",
+                  "offset": 11
+                }
+              ],
+              "location": "ListSteps.theTableIsThere(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@List"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "As a Test Engineer, I want to validate that a text is present inside the list.",
+        "description": "",
+        "id": "list-page-functionality;as-a-test-engineer--i-want-to-validate-that-a-text-is-present-inside-the-list.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 440500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 44656400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the list page",
+            "match": {
+              "location": "ListSteps.navigateToListPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 817361200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search Chicago in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago",
+                  "offset": 9
+                }
+              ],
+              "location": "ListSteps.searchTheList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20763400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can find Chicago, Illinois in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago, Illinois",
+                  "offset": 11
+                }
+              ],
+              "location": "ListSteps.theTableIsThere(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@List"
+          }
+        ]
+      }
+    ],
+    "name": "List page functionality",
+    "description": "",
+    "id": "list-page-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ListPageTest.feature",
+    "tags": []
+  }
+]

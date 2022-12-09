@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test Google search functionality" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-07T18:51:45" hostname="LAPTOP-MAPMQR66" time="0.003">
-  <properties/>
-  <testcase name="As a user I enter a search criteria in Google" classname="Test Google search functionality" time="0.003"/>
-  <system-out><![CDATA[?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
