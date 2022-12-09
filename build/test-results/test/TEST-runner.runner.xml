@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runner.runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LAPTOP-MAPMQR66" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+1 Scenarios (?[32m1 passed?[0m)
+4 Steps (?[32m4 passed?[0m)
+0m0,080s
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
