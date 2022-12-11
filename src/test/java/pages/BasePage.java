@@ -118,4 +118,14 @@ public class BasePage {
     public List<WebElement> bringMeAllElements(String locator){
         return driver.findElements(By.className(locator));
     }
+    
+    //--------------------------------------AmazonPage ---------------------------------------
+    
+    public void goToLinkText(String linkText){
+        driver.findElement(By.linkText(linkText)).click();
+        
+    }
+
+
+
 }

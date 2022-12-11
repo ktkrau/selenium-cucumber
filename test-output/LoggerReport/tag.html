@@ -46,6 +46,14 @@
 							</a>
 						</li>
 						<li>
+							<a href="exception.html">
+							<span class="nav-icon">
+							<i class="fa fa-warning"></i>
+							</span>
+							<span class="nav-text">Exceptions</span>
+							</a>
+						</li>
+						<li>
 							<a href="dashboard.html">
 							<span class="nav-icon">
 							<i class="fa fa-dashboard"></i>
@@ -99,15 +107,15 @@
 				<div class="p-2 px-3 text-muted text-sm">Tags</div>
 					<div class="list-item attr">
 						<div class="list-body">
-							<a href="#" class="item-title _500">@List</a>
+							<a href="#" class="item-title _500">@Amazon</a>
 							<div class="item-except text-sm text-muted h-1x">
-								3 tests
+								2 tests
 							</div>
 							<div class="tc d-none">
-								<h5>@List</h5>
+								<h5>@Amazon</h5>
 								<div class="mb-4">
-									<span class="badge pass text-pass">3 passed</span>
-									<span class="badge pass text-fail">0 failed</span>
+									<span class="badge pass text-pass">0 passed</span>
+									<span class="badge pass text-fail">2 failed</span>
 									<span class="badge pass text-skip">0 skipped</span>
 								</div>
 								<table class="table">
@@ -121,43 +129,39 @@
 									</tr></thead>
 									<tbody>
 	
-<tr class="s-pass" test-id="2" parent-id="1">
-	<td><span class="w-32 avatar circle pass"><span class="badge">pass</span></span></td>
-	<td class="_600">As a Test Engineer, I want to validate that a text is present inside the list. <br/><span class="text-muted text-sm">List page functionality</span></td>
-	<td>0h 0m 4s+216msc</td>
+<tr class="s-fail" test-id="1" parent-id="1">
+	<td><span class="w-32 avatar circle fail"><span class="badge">fail</span></span></td>
+	<td class="_600">Test Amazon search functionality </td>
+	<td>0h 0m 35s+560msc</td>
 	<td>		<span class="category-list attr-x">
-		<span class="category badge"><i class="fa fa-tag"></i> @List</span>
+		<span class="category badge"><i class="fa fa-tag"></i> @Amazon</span>
 		</span>
 </td>
 	<td>
 	</td>
 	<td class="static"><i class="static fa fa-external-link"></i></td>
 </tr>
+<tr class="details">
+	<td colspan="5">
+	</td>
+</tr>
 	
-<tr class="s-pass" test-id="3" parent-id="1">
-	<td><span class="w-32 avatar circle pass"><span class="badge">pass</span></span></td>
-	<td class="_600">As a Test Engineer, I want to validate that a text is present inside the list. <br/><span class="text-muted text-sm">As a Test Engineer, I want to validate that a text is present inside the list.</span></td>
-	<td>0h 0m 3s+330msc</td>
+<tr class="s-fail" test-id="3" parent-id="1">
+	<td><span class="w-32 avatar circle fail"><span class="badge">fail</span></span></td>
+	<td class="_600">As a Customer when I search for Alexa, I wantto see if the third option on the second page is available for purchase and can be added to the cart. <br/><span class="text-muted text-sm">As a Customer when I search for Alexa, I wantto see if the third option on the second page is available for purchase and can be added to the cart.</span></td>
+	<td>0h 0m 35s+560msc</td>
 	<td>		<span class="category-list attr-x">
-		<span class="category badge"><i class="fa fa-tag"></i> @List</span>
+		<span class="category badge"><i class="fa fa-tag"></i> @Amazon</span>
+		<span class="category badge"><i class="fa fa-tag"></i> @Cart</span>
 		</span>
 </td>
 	<td>
 	</td>
 	<td class="static"><i class="static fa fa-external-link"></i></td>
 </tr>
-	
-<tr class="s-pass" test-id="8" parent-id="1">
-	<td><span class="w-32 avatar circle pass"><span class="badge">pass</span></span></td>
-	<td class="_600">As a Test Engineer, I want to validate that a text is present inside the list. <br/><span class="text-muted text-sm">As a Test Engineer, I want to validate that a text is present inside the list.</span></td>
-	<td>0h 0m 0s+884msc</td>
-	<td>		<span class="category-list attr-x">
-		<span class="category badge"><i class="fa fa-tag"></i> @List</span>
-		</span>
-</td>
-	<td>
+<tr class="details">
+	<td colspan="5">
 	</td>
-	<td class="static"><i class="static fa fa-external-link"></i></td>
 </tr>
 									</tbody>
 								</table>
@@ -165,7 +169,75 @@
 						</div>
 						<div>
 							<span class="item-meta text-xs lt">
-							<span class="badge pass text-pass">3</span> <span class="badge fail text-fail">0</span> <span class="badge skip text-skip">0</span>
+							<span class="badge pass text-pass">0</span> <span class="badge fail text-fail">2</span> <span class="badge skip text-skip">0</span>
+							</span>
+						</div>
+					</div>
+					<div class="list-item attr">
+						<div class="list-body">
+							<a href="#" class="item-title _500">@Cart</a>
+							<div class="item-except text-sm text-muted h-1x">
+								2 tests
+							</div>
+							<div class="tc d-none">
+								<h5>@Cart</h5>
+								<div class="mb-4">
+									<span class="badge pass text-pass">0 passed</span>
+									<span class="badge pass text-fail">2 failed</span>
+									<span class="badge pass text-skip">0 skipped</span>
+								</div>
+								<table class="table">
+									<thead><tr>
+										<th id="status-col"></th>
+										<th>Test</th>
+										<th>Duration</th>
+										<th>Attributes</th>
+										<th>Media</th>
+										<th>Source</th>
+									</tr></thead>
+									<tbody>
+	
+<tr class="s-fail" test-id="2" parent-id="1">
+	<td><span class="w-32 avatar circle fail"><span class="badge">fail</span></span></td>
+	<td class="_600">As a Customer when I search for Alexa, I wantto see if the third option on the second page is available for purchase and can be added to the cart. <br/><span class="text-muted text-sm">Test Amazon search functionality</span></td>
+	<td>0h 0m 35s+560msc</td>
+	<td>		<span class="category-list attr-x">
+		<span class="category badge"><i class="fa fa-tag"></i> @Cart</span>
+		</span>
+</td>
+	<td>
+	</td>
+	<td class="static"><i class="static fa fa-external-link"></i></td>
+</tr>
+<tr class="details">
+	<td colspan="5">
+	</td>
+</tr>
+	
+<tr class="s-fail" test-id="3" parent-id="1">
+	<td><span class="w-32 avatar circle fail"><span class="badge">fail</span></span></td>
+	<td class="_600">As a Customer when I search for Alexa, I wantto see if the third option on the second page is available for purchase and can be added to the cart. <br/><span class="text-muted text-sm">As a Customer when I search for Alexa, I wantto see if the third option on the second page is available for purchase and can be added to the cart.</span></td>
+	<td>0h 0m 35s+560msc</td>
+	<td>		<span class="category-list attr-x">
+		<span class="category badge"><i class="fa fa-tag"></i> @Amazon</span>
+		<span class="category badge"><i class="fa fa-tag"></i> @Cart</span>
+		</span>
+</td>
+	<td>
+	</td>
+	<td class="static"><i class="static fa fa-external-link"></i></td>
+</tr>
+<tr class="details">
+	<td colspan="5">
+	</td>
+</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div>
+							<span class="item-meta text-xs lt">
+							<span class="badge pass text-pass">0</span> <span class="badge fail text-fail">2</span> <span class="badge skip text-skip">0</span>
 							</span>
 						</div>
 					</div>
@@ -196,7 +268,7 @@
 									        </a>
 								        </li>
 <li><a href="#" class="b-l"><span class="badge badge-pull">ExtentReports</span></a></li>
-<li><a href="#" class="b-l"><span class="badge badge-pull">Dec 9, 2022 04:58:08 PM</span></a></li>
+<li><a href="#" class="b-l"><span class="badge badge-pull">Dec 11, 2022 04:39:07 PM</span></a></li>
 <li><a href="#" class="b-l"><span class="badge badge-pull">4.0</span></a></li>
 								    </ul>
 								</div>
